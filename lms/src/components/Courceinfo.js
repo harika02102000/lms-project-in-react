@@ -3,6 +3,8 @@ import './Courceinfo.css';
 import One from "../../src/img/logo.png";
 import { AiOutlineBell } from 'react-icons/ai';
 import { FaUserCircle } from 'react-icons/fa';
+import {AiFillCheckCircle} from 'react-icons/ai';
+import {AiFillPlayCircle} from 'react-icons/ai';
 import { BsClock } from 'react-icons/bs';
 import Two from "../../src/img/LMS-Assets/video.png";
 
@@ -19,8 +21,8 @@ var Courceinfo=()=> {
             </div>
             <div class="bg-[#EBF3FE] h-16 w-[100%] flex justify-center pt-2 ">
                 <BsClock size={32} class="text-[#656565] absolute right-[90%]"/>
-               <p class="text-2xl text-[#656565] absolute right-[56%]">Your Upcoming Class at 28-04-20 IST 5:30pm</p>
-               <button class="bg-blue-500 hover:bg-blue-700 text-white  py-1 px-16 mb-3 ml-[40%]">
+               <p class="text-2xl text-[#656565] absolute right-[50%]">Your Upcoming Class at 28-04-20 IST 5:30pm</p>
+               <button class="bg-blue-500 hover:bg-blue-700 text-white  py-1 px-16 mb-3 ml-[55%]">
                    Join Class</button>
              </div>
         
@@ -29,28 +31,28 @@ var Courceinfo=()=> {
            <p class="text-[100%] text-[#000000] text-left pl-10 pt-12 pb-8">Recorded Classes</p>
            <div class="text-left text-1xl pl-20" >
                <p class="text-[120%] text-[#000000]">Module 1: UI Design</p>
-               <p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
-               <p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
-               <p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
-               <p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
+               <AiFillCheckCircle class="ml-6 relative top-5 right-10" color="green"/><p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
+               <AiFillCheckCircle class="ml-6 relative top-5 right-10" color="green"/><p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
+               <AiFillPlayCircle class="ml-6 relative top-5 right-10"  color="gray"/><p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
+               <AiFillPlayCircle class="ml-6 relative top-5 right-10"  color="gray"/><p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
                <p class="text-[120%] text-[#000000]">Module 2: UX Design</p>
-               <p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
-               <p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
-               <p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
-               <p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
-               <p class="text-[120%] text-[#000000]">Module 2: UX Design</p>
-               <p class="text-[120%] text-[#000000]">Module 2: UX Design</p>
+               <AiFillPlayCircle class="ml-6 relative top-5 right-10"  color="gray"/><p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
+               <AiFillPlayCircle class="ml-6 relative top-5 right-10"  color="gray"/><p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
+               <AiFillPlayCircle class="ml-6 relative top-5 right-10"  color="gray"/><p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
+               <AiFillPlayCircle class="ml-6 relative top-5 right-10"  color="gray"/><p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
                <p class="text-[120%] text-[#000000]">Module 2: UX Design</p>
                <p class="text-[120%] text-[#000000]">Module 2: UX Design</p>
-               <p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
-               <p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
-               <p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
-               <p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
                <p class="text-[120%] text-[#000000]">Module 2: UX Design</p>
-               <p>1. Lorem ipsum dolor sit amet, consetetur</p>
-               <p>1. Lorem ipsum dolor sit amet, consetetur</p>
-               <p>1. Lorem ipsum dolor sit amet, consetetur</p>
-               <p>1. Lorem ipsum dolor sit amet, consetetur</p>
+               <p class="text-[120%] text-[#000000]">Module 2: UX Design</p>
+               <AiFillPlayCircle class="ml-6 relative top-5 right-10"  color="gray"/><p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
+               <AiFillPlayCircle class="ml-6 relative top-5 right-10"  color="gray"/><p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
+               <AiFillPlayCircle class="ml-6 relative top-5 right-10"  color="gray"/><p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
+               <AiFillPlayCircle class="ml-6 relative top-5 right-10"  color="gray"/><p class="text-[#919191]">1. Lorem ipsum dolor sit amet, consetetur</p>
+               <p class="text-[120%] text-[#000000]">Module 2: UX Design</p>
+               <AiFillPlayCircle class="ml-6 relative top-5 right-10"  color="gray"/><p>1. Lorem ipsum dolor sit amet, consetetur</p>
+               <AiFillPlayCircle class="ml-6 relative top-5 right-10"  color="gray"/><p>1. Lorem ipsum dolor sit amet, consetetur</p>
+               <AiFillPlayCircle class="ml-6 relative top-5 right-10"  color="gray"/><p>1. Lorem ipsum dolor sit amet, consetetur</p>
+               <AiFillPlayCircle class="ml-6 relative top-5 right-10"  color="gray"/><p>1. Lorem ipsum dolor sit amet, consetetur</p>
            </div>
             </div>
 

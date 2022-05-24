@@ -4,7 +4,7 @@
     width: 50%; */
     /* color: white; */
      height: 400px;
-     width: 60%; 
+     width: 70%; 
     overflow: scroll;
     /* border: 1px solid #ccc; */
 }
@@ -29,3 +29,8 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #070303; 
   }
+  .lay{
+    background-color: red;
+    width:auto;
+  
+} 

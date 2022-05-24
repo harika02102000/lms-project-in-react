@@ -37,10 +37,8 @@ var Welcome=()=> {
                         </div>
                         <div>
                             <BsCheck2Circle size={25} color={'gray'} />
-
                             <p>Enroll Now</p>
                         </div>
-
                     </div>
 
                 </div>
@@ -59,7 +57,6 @@ var Welcome=()=> {
                         <BsCheck2Circle size={25} color={'gray'} />
                     </div>
                 </div>
-
                 {/* <!--Card 3--> */}
                 <div class="rounded overflow-hidden shadow-lg w-[80%]">
                     <img class="w-full" src={Four} alt="Forest" />
@@ -70,15 +67,15 @@ var Welcome=()=> {
                             complementary with Agile software development.
                         </p>
                     </div>
-                    <div class="px-6 pt-4 pb-2">
+                    <div class="px-6 pt-4 pb-2 ">
                         <FaCloudDownloadAlt size={25} color={'gray'} />
                         <BsCheck2Circle size={25} color={'gray'} />
                     </div>
                 </div>
-            </div>
+            </div> 
+         </div >
 
-
-        </div >
+         
     )
 }
 

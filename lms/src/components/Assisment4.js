@@ -9,15 +9,15 @@ import { IoMdDownload } from 'react-icons/io';
 
 var Assisment4=()=> {
     return (
-        <div>
+        <div clsss="w-[40%]">
 
-            <div class="flex">
+            <div>
                 <img class="p-10 h-[20%] w-[20%]" src={One} alt="this is logo" />
                 <button class=" underline underline-offset-1 p-3 hover:bg-gray-50 absolute left-[75%] top-[9%] font-semibold" >Myclassroom</button>
                 <AiOutlineBell size={50} color={'gray'} class="absolute left-[85%] top-[8%]" />
                 < FaUserCircle size={50} color={'gray'} class="absolute left-[92%] top-[8%]" />
             </div>
-            <div class="bg-[#EBF3FE] h-16 w-[100%] flex justify-center pt-2 ">
+            <div class="bg-[#EBF3FE]  flex justify-center pt-2 ">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ``
                 <BsClock size={32} class="text-[#656565] absolute right-[90%]" />
                 <p class="text-2xl text-[#656565] absolute right-[56%]">Your Upcoming Class at 28-04-20 IST 5:30pm</p>
                 <button class="bg-blue-500 hover:bg-blue-700 text-white  py-1 px-16 mb-3 ml-[40%]">

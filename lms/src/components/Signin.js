@@ -5,16 +5,28 @@ import One from "../../src/img/background.png";
 import Two from "../../src/img/logo.png";
 import Three from "../../src/img/ggl.png";
 import Four from "../../src/img/in.png";
-var Signup=() =>{
+import { Link } from 'react-router-dom';
+var Signin=() =>{
   const {register,handleSubmit,formState:{errors}}=useForm();
     const onSubmit=(data)=>{
         console.log(data);
-         
+         window.location.href='/'
     }
+    const linkedin=(data)=>{
+      console.log(data);
+      window.location.href='https://in.linkedin.com/'
+    }
+    const chrome=(data)=>{
+      console.log(data);
+      window.location.href='https://www.google.co.in/'
+    }
+  
+
+    
   return (
-    <div >
+    <div class="w-screen" style={{backgroundColor:"#EBF3FE"}}>
       
-      <div class="h-[80%] w-[80%] absolute left-[22%] bottom-[28%] ">
+      <div class="h-[50%] w-[50%] absolute left-[22%] bottom-[28%] ">
         <img  alt='waiting for image' src={One} />
       
       </div>
@@ -25,7 +37,7 @@ var Signup=() =>{
       <form onSubmit={handleSubmit(onSubmit)} class="flex absolute top-52 left-[40%] ">
         <div class=" shadow-2xl shadow-gray-700 space-x-10 w-[80] h-[40%] mb-8 mt-9" >
           <div class="grid grid-cols-2 ">
-          <button class="  text-2xl font-semibold bg-gray-300 p-5 " >SIGN UP</button>
+          <button class="  text-2xl font-semibold bg-gray-300 p-5 " onClick={onSubmit}> SIGN UP</button>
           <button class=" text-2xl font-semibold ">SIGN IN</button>
           </div>
           
@@ -51,8 +63,8 @@ var Signup=() =>{
           </div>
           
           <div class="flex justify-center space-x-6 mb-7">
-            <img alt='waiting for image' src={Four} class="h-12 w-12" />
-            <img alt='waiting for image' src={Three} class="h-12 w-12" />
+          <img alt='waiting for image' src={Four} class="h-12 w-12" onClick={linkedin} />
+            <img alt='waiting for image' src={Three} class="h-12 w-12" onClick={chrome} />
           </div>
 
 
@@ -66,4 +78,4 @@ var Signup=() =>{
   );
 };
 
-export default Signup;
+export default Signin;

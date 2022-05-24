@@ -69,7 +69,7 @@ var Courceinfo1=()=> {
 							class="py-4 text-gray-500 border-b-4 border-blue-500 font-semibold "
 							>Course Info</a>
 						<a
-							href=""
+			    			href=""
 							class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"
 							>Resources</a>
 						<a
